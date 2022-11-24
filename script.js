@@ -7,6 +7,6 @@ var countdown=setInterval(()=>{
     time.innerHTML=`${timesecond}`;
     if(timesecond<1){
         clearTimeout(timesecond);
-        time.innerHTML="TASK COMPLETED!!!!!!!"
+        time.innerHTML="YOU ARE NOW A MEMBER OF GUVI FAMILY"
     }
 },1000)
